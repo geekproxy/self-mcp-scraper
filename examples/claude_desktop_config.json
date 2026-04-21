@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "self-mcp-scraper": {
+      "command": "/absolute/path/to/self-mcp-scraper/.venv/bin/self-mcp-scraper",
+      "args": ["--transport", "stdio"],
+      "env": {
+        "PROXY_SCHEME": "http",
+        "PROXY_HOST": "proxy.example.com",
+        "PROXY_PORT": "8080",
+        "PROXY_USER": "your_username",
+        "PROXY_PASS": "your_password",
+        "DEFAULT_TIMEOUT_SECONDS": "30",
+        "RATE_LIMIT_CAPACITY": "10",
+        "RATE_LIMIT_REFILL_PER_SECOND": "2",
+        "DEFAULT_FINGERPRINT_COUNTRY": "US",
+        "LOG_LEVEL": "INFO",
+        "LOG_JSON": "true"
+      }
+    }
+  }
+}

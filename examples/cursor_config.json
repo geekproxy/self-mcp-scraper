@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "self-mcp-scraper": {
+      "command": "self-mcp-scraper",
+      "args": [],
+      "env": {
+        "PROXY_SCHEME": "socks5",
+        "PROXY_HOST": "proxy.example.com",
+        "PROXY_PORT": "1080",
+        "PROXY_USER": "your_username",
+        "PROXY_PASS": "your_password",
+        "DEFAULT_FINGERPRINT_COUNTRY": "DE"
+      }
+    }
+  }
+}
